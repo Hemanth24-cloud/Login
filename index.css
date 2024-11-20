@@ -1,0 +1,115 @@
+
+.container {
+    position: relative;
+    width: 1000px; /* Adjust width as needed */
+    margin: auto;
+}
+
+.image {
+    width: 1000px;
+    height: 1000px;
+}
+
+.overlay {
+    position: absolute;
+    top: 300px;
+    left: 250px;
+    transform: translate(-50%, -50%);
+    color: rgb(15, 5, 5); /* Text color */
+    background-color: rgb(255, 255, 255); /* Semi-transparent background */
+    padding: 10px; /* Padding around text */
+    border-radius: 5px; /* Rounded corners */
+    height: 400px;
+    width: 300px;
+
+}
+.over {
+    position: absolute;
+    top: 300px;
+    left: 700px;
+   height: 200px;
+   width: 500px;
+   transform: translate(-50%, -50%);
+   color: rgb(15, 5, 5); /* Text color */
+   background-color: rgb(255, 255, 255); /* Semi-transparent background */
+   padding: 10px; /* Padding around text */
+   border-radius: 5px; /* Rounded corners */
+}
+.first{
+float: left;
+width: 50px;
+}
+.second{
+width: 300px;
+}
+.third{
+float: inline-end;
+margin-top: -25px;
+
+}
+.four{
+    height: 50px;
+    background-color: aqua;
+}
+.five{
+    float: left;
+    width: 50px;
+}
+.six{
+    width: 300px;
+}
+.seve{
+    float: inline-end;
+margin-top: -20px;
+}
+.fou{
+    background-color:#b7ff00;
+    height: 50px;
+}
+
+.header{
+    margin: auto;
+}
+.form-group{
+    margin: 16px, 0;
+}
+.formgroup 
+{
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    
+    cursor: pointer;
+    margin-bottom: 100px;
+  }
+  #Application-form input select, textarea{
+    padding: 4px;
+    font-size: 1.25rem;
+    margin-top: 4px;
+}
+#form-group textarea{
+    width: 80%;
+    font-family: sans-serif;
+}
+.bodyy {
+    background-color: #FFF8F0;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 0;
+    padding: 0;
+}
+.header
+{
+    background-color: #b7ff00;
+    color: black;
+    text-align: center;
+    height: 40px;
+    width: 1000px;
+    font-size: 20px;
+    font-weight: 100;
+}
